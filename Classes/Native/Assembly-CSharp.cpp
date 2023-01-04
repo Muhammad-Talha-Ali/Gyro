@@ -21781,8 +21781,8 @@ public:
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___wrapper_4;
 	// ObjectSpawner ModelLoader::objectSpawner
 	ObjectSpawner_tF3A67BD2E71567BED1D0B7E4E8756B9C92D4E388 * ___objectSpawner_5;
-	// ARTapToPlace ModelLoader::aRTapToPlaceLean
-	ARTapToPlace_tB6D429B2C4192A2DC6B7500A8A6BCE33BD0B4D51 * ___aRTapToPlaceLean_6;
+	// ARTapToPlaceLean ModelLoader::aRTapToPlaceLean
+	ARTapToPlaceLean_tBEBE951F6C062CC29C98D82CA15EB2FBBA26C7CC * ___aRTapToPlaceLean_6;
 	// System.String ModelLoader::filePath
 	String_t* ___filePath_7;
 	// UnityEngine.UI.Text ModelLoader::Child
@@ -21795,8 +21795,6 @@ public:
 	String_t* ___urlString_11;
 	// System.String ModelLoader::value
 	String_t* ___value_12;
-	// UnityEngine.AndroidJavaObject ModelLoader::communicationBridge
-	AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___communicationBridge_13;
 	// UnityEngine.GameObject ModelLoader::model
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___model_14;
 
@@ -21820,9 +21818,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_aRTapToPlaceLean_6() { return static_cast<int32_t>(offsetof(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1, ___aRTapToPlaceLean_6)); }
-	inline ARTapToPlace_tB6D429B2C4192A2DC6B7500A8A6BCE33BD0B4D51 * get_aRTapToPlaceLean_6() const { return ___aRTapToPlaceLean_6; }
-	inline ARTapToPlace_tB6D429B2C4192A2DC6B7500A8A6BCE33BD0B4D51 ** get_address_of_aRTapToPlaceLean_6() { return &___aRTapToPlaceLean_6; }
-	inline void set_aRTapToPlaceLean_6(ARTapToPlace_tB6D429B2C4192A2DC6B7500A8A6BCE33BD0B4D51 * value)
+	inline ARTapToPlaceLean_tBEBE951F6C062CC29C98D82CA15EB2FBBA26C7CC * get_aRTapToPlaceLean_6() const { return ___aRTapToPlaceLean_6; }
+	inline ARTapToPlaceLean_tBEBE951F6C062CC29C98D82CA15EB2FBBA26C7CC ** get_address_of_aRTapToPlaceLean_6() { return &___aRTapToPlaceLean_6; }
+	inline void set_aRTapToPlaceLean_6(ARTapToPlaceLean_tBEBE951F6C062CC29C98D82CA15EB2FBBA26C7CC * value)
 	{
 		___aRTapToPlaceLean_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___aRTapToPlaceLean_6), (void*)value);
@@ -21882,15 +21880,6 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___value_12), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_communicationBridge_13() { return static_cast<int32_t>(offsetof(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1, ___communicationBridge_13)); }
-	inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * get_communicationBridge_13() const { return ___communicationBridge_13; }
-	inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E ** get_address_of_communicationBridge_13() { return &___communicationBridge_13; }
-	inline void set_communicationBridge_13(AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * value)
-	{
-		___communicationBridge_13 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___communicationBridge_13), (void*)value);
-	}
-
 	inline static int32_t get_offset_of_model_14() { return static_cast<int32_t>(offsetof(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1, ___model_14)); }
 	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_model_14() const { return ___model_14; }
 	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_model_14() { return &___model_14; }
@@ -21905,15 +21894,15 @@ struct ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_StaticFields
 {
 public:
 	// System.Boolean ModelLoader::isGLBModel
-	bool ___isGLBModel_15;
+	bool ___isGLBModel_13;
 
 public:
-	inline static int32_t get_offset_of_isGLBModel_15() { return static_cast<int32_t>(offsetof(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_StaticFields, ___isGLBModel_15)); }
-	inline bool get_isGLBModel_15() const { return ___isGLBModel_15; }
-	inline bool* get_address_of_isGLBModel_15() { return &___isGLBModel_15; }
-	inline void set_isGLBModel_15(bool value)
+	inline static int32_t get_offset_of_isGLBModel_13() { return static_cast<int32_t>(offsetof(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_StaticFields, ___isGLBModel_13)); }
+	inline bool get_isGLBModel_13() const { return ___isGLBModel_13; }
+	inline bool* get_address_of_isGLBModel_13() { return &___isGLBModel_13; }
+	inline void set_isGLBModel_13(bool value)
 	{
-		___isGLBModel_15 = value;
+		___isGLBModel_13 = value;
 	}
 };
 
@@ -40704,7 +40693,7 @@ IL_07c2:
 IL_0840:
 	{
 		// if (ModelLoader.isGLBModel)
-		bool L_268 = ((ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_StaticFields*)il2cpp_codegen_static_fields_for(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_il2cpp_TypeInfo_var))->get_isGLBModel_15();
+		bool L_268 = ((ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_StaticFields*)il2cpp_codegen_static_fields_for(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_il2cpp_TypeInfo_var))->get_isGLBModel_13();
 		if (!L_268)
 		{
 			goto IL_085f;
@@ -40712,7 +40701,7 @@ IL_0840:
 	}
 	{
 		// ModelLoader.isGLBModel = false;
-		((ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_StaticFields*)il2cpp_codegen_static_fields_for(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_il2cpp_TypeInfo_var))->set_isGLBModel_15((bool)0);
+		((ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_StaticFields*)il2cpp_codegen_static_fields_for(ModelLoader_t6158AD8DE929D02D1D63D6ED80DBE9B3CC2C83F1_il2cpp_TypeInfo_var))->set_isGLBModel_13((bool)0);
 		// if (Application.platform == RuntimePlatform.IPhonePlayer)
 		int32_t L_269;
 		L_269 = Application_get_platform_mB22F7F39CDD46667C3EF64507E55BB7DA18F66C4(/*hidden argument*/NULL);

@@ -2378,10 +2378,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_GetTouch_Injected();
 		Register_UnityEngine_Input_GetTouch_Injected();
 
-		//System.Void UnityEngine.Input::get_acceleration_Injected(UnityEngine.Vector3&)
-		void Register_UnityEngine_Input_get_acceleration_Injected();
-		Register_UnityEngine_Input_get_acceleration_Injected();
-
 		//System.Void UnityEngine.Input::get_compositionCursorPos_Injected(UnityEngine.Vector2&)
 		void Register_UnityEngine_Input_get_compositionCursorPos_Injected();
 		Register_UnityEngine_Input_get_compositionCursorPos_Injected();

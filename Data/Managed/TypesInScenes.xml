@@ -67,6 +67,7 @@
 		<type fullname="FollowTouch" preserve="nothing"/>
 		<type fullname="Gyromove" preserve="nothing"/>
 		<type fullname="LoadSpritePath" preserve="nothing"/>
+		<type fullname="ModelLoader" preserve="nothing"/>
 		<type fullname="MouseInputUIBlocker" preserve="nothing"/>
 		<type fullname="ObjectSpawner" preserve="nothing"/>
 		<type fullname="PlaneDetectionMode" preserve="nothing"/>
